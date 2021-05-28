@@ -1,0 +1,48 @@
+i=3
+no=i
+count=0
+while i<100 :
+	print("%d" %(i))
+	i=i+10
+	count=count+1
+
+print("total count of number ended with  %d is  %d" %(no,count))
+
+
+Output:
+3
+13
+23
+33
+43
+53
+63
+73
+83
+93
+
+total count of number ended with 3 is 10
+
+# 2nd way of printing numbers ended with 3
+
+i=1
+while i<=100 :
+	if i%10==3 :
+	  print("%d" %(i))
+	  i=i+1
+	else :
+	  i=i+1
+
+Output:
+3
+13
+23
+33
+43
+53
+63
+73
+83
+93
+
+
